@@ -103,3 +103,30 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  /* Mobile Responsive Tweaks */
+@media (max-width: 600px) {
+  header {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  ul > li {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+
+  .controls {
+    right: 5px;
+  }
+
+  .controls button {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.2rem;
+  }
+}
